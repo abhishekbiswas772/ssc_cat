@@ -108,8 +108,9 @@ headers:- {
     "x-api-version": "1.0",
     "content-type": "application/json"
 }
-payload / body:- { 
-    "otp": "<OTP>" 
+payload / body:- {
+  "otp": {{otp}},
+  "ref_id": {{ref_id}}
 }
 (Raw json format)
 ```
